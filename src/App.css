@@ -9,3 +9,20 @@
 .App h1 {
   text-align: center;
 }
+
+.habit-container {
+  margin: 7px 0;
+}
+.status {
+  padding: 1px;
+  border: 1px solid #555;
+  border-radius: 3px;
+}
+
+.status.red {
+  background-color: #ff0000;
+}
+
+.status.green {
+  background-color: #aaffaa;
+}

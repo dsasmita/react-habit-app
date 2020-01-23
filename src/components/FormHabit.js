@@ -16,7 +16,7 @@ class FormHabit extends React.Component {
       habit: "",
       status: "Mulai"
     });
-    console.log("Sibmit data ...", [newHabit]);
+    this.props.onHandleNewHabit(newHabit);
   };
 
   handleChangeHabit = event => {
